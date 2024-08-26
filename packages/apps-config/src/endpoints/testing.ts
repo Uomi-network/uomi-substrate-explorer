@@ -18,6 +18,17 @@ export * from './testingRelayWestend.js';
 // IMPORTANT: Alphabetical based on text
 export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
+    info: 'UOMI Tokyo',
+    providers: {
+      Uomi: 'wss://testnet.uomi.ai'
+    },
+    text: 'UOMI Tokyo',
+    ui: {
+      color: '#000000',
+      logo: chainsUomiPNG
+    }
+  },
+  {
     info: '3dpass-testnet',
     providers: {
       // '3dpass': 'wss://test-rpc.3dpass.org' // https://github.com/polkadot-js/apps/issues/9443
@@ -1095,17 +1106,6 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
     ui: {
       color: '#00ffcc',
       logo: nodesZeroSVG
-    }
-  },
-  {
-    info: 'UOMI Tokyo',
-    providers: {
-      Uomi: 'wss://testnet.uomi.ai'
-    },
-    text: 'UOMI Tokyo',
-    ui: {
-      color: '#000000',
-      logo: chainsUomiPNG
     }
   }
 ];

@@ -18,6 +18,17 @@ export * from './productionRelayPolkadot.js';
 // IMPORTANT: Alphabetical based on text
 export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
+    info: 'UOMI',
+    providers: {
+      Uomi: 'wss://mainnet.uomi.ai'
+    },
+    text: 'UOMI',
+    ui: {
+      color: '#000000',
+      logo: chainsUomiPNG
+    }
+  },
+  {
     info: '3dpass',
     providers: {
       '3dpass': 'wss://rpc.3dpscan.io'
@@ -625,17 +636,6 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
     ui: {
       color: 'linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 100%)',
       logo: nodesDatahighwayPNG
-    }
-  },
-  {
-    info: 'UOMI',
-    providers: {
-      // Uomi: 'mainnet.uomi.ai'
-    },
-    text: 'UOMI',
-    ui: {
-      color: '#000000',
-      logo: chainsUomiPNG
     }
   }
 ];
