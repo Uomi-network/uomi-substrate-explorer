@@ -22,7 +22,7 @@ module.exports = merge(
     plugins: [
       new SubresourceIntegrityPlugin(),
       new HtmlWebpackPlugin({
-        PAGE_TITLE: 'Polkadot/Substrate Portal',
+        PAGE_TITLE: 'UOMI Substrate Block Explorer',
         minify: false,
         template: path.join(context, `${hasPublic ? 'public/' : ''}index.html`)
       })
