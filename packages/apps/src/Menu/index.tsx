@@ -33,7 +33,7 @@ function createExternals (t: (key: string, optionsOrText?: string | { replace: R
       text: t('nav.github', 'GitHub', { ns: 'apps-routing' })
     },
     {
-      href: 'https://wiki.polkadot.network',
+      href: 'https://docs.uomi.ai',
       icon: 'book',
       name: 'wiki',
       text: t('nav.wiki', 'Wiki', { ns: 'apps-routing' })
