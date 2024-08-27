@@ -8,7 +8,6 @@ import { createCustom, createDev, createOwn } from './development.js';
 // import { prodChains, prodRelayKusama, prodRelayPolkadot } from './production.js';
 // import { testChains, testRelayRococo, testRelayWestend } from './testing.js';
 // import { testRelayPaseo } from './testingRelayPaseo.js';
-import { prodChains } from './production.js';
 import { testChains } from './testing.js';
 import { expandEndpoints } from './util.js';
 
