@@ -23,13 +23,13 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       'Acala Foundation 0': 'wss://acala-rpc-0.aca-api.network',
       'Acala Foundation 1': 'wss://acala-rpc-1.aca-api.network',
-      // 'Acala Foundation 2': 'wss://acala-rpc-2.aca-api.network/ws', // https://github.com/polkadot-js/apps/issues/6965
+      // 'Acala Foundation 2': 'wss://acala-rpc-2.aca-api.network/ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6965
       'Acala Foundation 3': 'wss://acala-rpc-3.aca-api.network/ws',
       Dwellir: 'wss://acala-rpc.dwellir.com',
-      // LuckyFriday: 'wss://rpc-acala.luckyfriday.io', // https://github.com/polkadot-js/apps/issues/10728
-      // 'Automata 1RPC': 'wss://1rpc.io/aca' // https://github.com/polkadot-js/apps/issues/8648
+      // LuckyFriday: 'wss://rpc-acala.luckyfriday.io', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
+      // 'Automata 1RPC': 'wss://1rpc.io/aca' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8648
       OnFinality: 'wss://acala-polkadot.api.onfinality.io/public-ws'
-      // 'Polkawallet 0': 'wss://acala.polkawallet.io' // https://github.com/polkadot-js/apps/issues/9760
+      // 'Polkawallet 0': 'wss://acala.polkawallet.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9760
     },
     text: 'Acala',
     ui: {
@@ -59,7 +59,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'odyssey',
     paraId: 2028,
     providers: {
-      // AresProtocol: 'wss://wss.odyssey.aresprotocol.io' // https://github.com/polkadot-js/apps/issues/9059
+      // AresProtocol: 'wss://wss.odyssey.aresprotocol.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'Ares Odyssey',
     ui: {
@@ -124,7 +124,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2048,
     providers: {
       Bitgreen: 'wss://mainnet.bitgreen.org'
-      // OnFinality: 'wss://bitgreen.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9993
+      // OnFinality: 'wss://bitgreen.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9993
     },
     text: 'Bitgreen',
     ui: {
@@ -153,8 +153,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'clover',
     paraId: 2002,
     providers: {
-      // Clover: 'wss://rpc-para.clover.finance' // https://github.com/polkadot-js/apps/issues/10172
-      // OnFinality: 'wss://clover.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9986
+      // Clover: 'wss://rpc-para.clover.finance' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
+      // OnFinality: 'wss://clover.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
     },
     text: 'Clover',
     ui: {
@@ -167,7 +167,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'coinversation',
     paraId: 2027,
     providers: {
-      // Coinversation: 'wss://rpc.coinversation.io/' // https://github.com/polkadot-js/apps/issues/6635
+      // Coinversation: 'wss://rpc.coinversation.io/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6635
     },
     text: 'Coinversation',
     ui: {
@@ -182,7 +182,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Composable: 'wss://rpc.composable.finance',
       Dwellir: 'wss://composable-rpc.dwellir.com'
-      // OnFinality: 'wss://composable.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9986
+      // OnFinality: 'wss://composable.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
     },
     text: 'Composable Finance',
     ui: {
@@ -212,7 +212,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       'Crust APP': 'wss://crust-parachain.crustnetwork.app',
       'Crust CC': 'wss://crust-parachain.crustnetwork.cc',
       'Crust XYZ': 'wss://crust-parachain.crustnetwork.xyz'
-      // OnFinality: 'wss://crust-polkadot.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/10013
+      // OnFinality: 'wss://crust-polkadot.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10013
     },
     text: 'Crust',
     ui: {
@@ -245,7 +245,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       // 2. There is a forked relay-involved which we don't support
       //
       // Additional details in original removal at
-      // https://github.com/polkadot-js/apps/pull/9555/files#r1225095086
+      // https://github.com/Uomi-network/uomi-substrate-explorer/pull/9555/files#r1225095086
     },
     text: 'Efinity',
     ui: {
@@ -272,8 +272,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2011,
     providers: {
       // Dwellir: 'wss://equilibrium-rpc.dwellir.com'
-      // OnFinality: 'wss://equilibrium.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9977
-      // Equilibrium: 'wss://node.equilibrium.io' // https://github.com/polkadot-js/apps/issues/10174
+      // OnFinality: 'wss://equilibrium.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9977
+      // Equilibrium: 'wss://node.equilibrium.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10174
     },
     text: 'Equilibrium',
     ui: {
@@ -335,8 +335,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       Helikon: 'wss://rpc.helikon.io/hydradx',
       IBP1: 'wss://hydradx.paras.ibp.network',
       IBP2: 'wss://hydradx.paras.dotters.network'
-      // OnFinality: 'wss://hydradx.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9986
-      // ZeePrime: 'wss://rpc-lb.data6.zp-labs.net:8443/hydradx/ws/?token=2ZGuGivPJJAxXiT1hR1Yg2MXGjMrhEBYFjgbdPi' // https://github.com/polkadot-js/apps/issues/9760
+      // OnFinality: 'wss://hydradx.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
+      // ZeePrime: 'wss://rpc-lb.data6.zp-labs.net:8443/hydradx/ws/?token=2ZGuGivPJJAxXiT1hR1Yg2MXGjMrhEBYFjgbdPi' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9760
     },
     text: 'HydraDX',
     ui: {
@@ -395,7 +395,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       Dwellir: 'wss://interlay-rpc.dwellir.com',
       'Kintsugi Labs': 'wss://api.interlay.io/parachain',
       LuckyFriday: 'wss://rpc-interlay.luckyfriday.io/'
-      // OnFinality: 'wss://interlay.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9986
+      // OnFinality: 'wss://interlay.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
     },
     text: 'Interlay',
     ui: {
@@ -422,8 +422,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2007,
     providers: {
       // Dwellir: 'wss://kapex-rpc.dwellir.com'
-      // OnFinality: 'wss://kapex-parachain.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9986
-      // Totem: 'wss://k-ui.kapex.network' // https://github.com/polkadot-js/apps/issues/9616
+      // OnFinality: 'wss://kapex-parachain.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
+      // Totem: 'wss://k-ui.kapex.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9616
     },
     text: 'Kapex',
     ui: {
@@ -453,7 +453,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'kylin',
     paraId: 2052,
     providers: {
-      // 'Kylin Network': 'wss://polkadot.kylin-node.co.uk' // https://github.com/polkadot-js/apps/issues/10030
+      // 'Kylin Network': 'wss://polkadot.kylin-node.co.uk' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10030
     },
     text: 'Kylin',
     ui: {
@@ -481,7 +481,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Dwellir: 'wss://litentry-rpc.dwellir.com',
       Litentry: 'wss://rpc.litentry-parachain.litentry.io'
-      // OnFinality: 'wss://litentry.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9993
+      // OnFinality: 'wss://litentry.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9993
     },
     text: 'Litentry',
     ui: {
@@ -509,7 +509,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2104,
     providers: {
       'Manta Network': 'wss://ws.manta.systems'
-      // OnFinality: 'wss://manta.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9977
+      // OnFinality: 'wss://manta.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9977
     },
     text: 'Manta',
     ui: {
@@ -523,7 +523,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2004,
     providers: {
       Allnodes: 'wss://moonbeam-rpc.publicnode.com',
-      // 'Automata 1RPC': 'wss://1rpc.io/glmr', // https://github.com/polkadot-js/apps/issues/10566
+      // 'Automata 1RPC': 'wss://1rpc.io/glmr', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10566
       Blast: 'wss://moonbeam.public.blastapi.io',
       Dwellir: 'wss://moonbeam-rpc.dwellir.com',
       IBP1: 'wss://moonbeam.ibp.network',
@@ -544,7 +544,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'moonsama',
     paraId: 3334,
     providers: {
-      // Moonsama: 'wss://rpc.moonsama.com/ws' // https://github.com/polkadot-js/apps/issues/10289
+      // Moonsama: 'wss://rpc.moonsama.com/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10289
     },
     text: 'Moonsama',
     ui: {
@@ -627,8 +627,8 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2012,
     providers: {
       Dwellir: 'wss://parallel-rpc.dwellir.com'
-      // OnFinality: 'wss://parallel.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9986
-      // Parallel: 'wss://polkadot-parallel-rpc.parallel.fi' // https://github.com/polkadot-js/apps/issues/10220
+      // OnFinality: 'wss://parallel.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
+      // Parallel: 'wss://polkadot-parallel-rpc.parallel.fi' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10220
     },
     text: 'Parallel',
     ui: {
@@ -673,7 +673,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       OnFinality: 'wss://phala.api.onfinality.io/public-ws',
       Phala: 'wss://api.phala.network/ws',
       RadiumBlock: 'wss://phala.public.curie.radiumblock.co/ws'
-      // Rockx: 'wss://rockx-phala.w3node.com/polka-public-phala/ws' // https://github.com/polkadot-js/apps/issues/10728
+      // Rockx: 'wss://rockx-phala.w3node.com/polka-public-phala/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
     },
     text: 'Phala Network',
     ui: {
@@ -773,7 +773,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     info: 'subgame',
     paraId: 2017,
     providers: {
-      // SubGame: 'wss://gamma.subgame.org/' // https://github.com/polkadot-js/apps/pull/6761
+      // SubGame: 'wss://gamma.subgame.org/' // https://github.com/Uomi-network/uomi-substrate-explorer/pull/6761
     },
     text: 'SubGame Gamma',
     ui: {
@@ -788,7 +788,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Dappforce: 'wss://para.subsocial.network',
       Dwellir: 'wss://subsocial-rpc.dwellir.com'
-      // OnFinality: 'wss://subsocial-polkadot.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9977
+      // OnFinality: 'wss://subsocial-polkadot.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9977
     },
     text: 'Subsocial',
     ui: {
@@ -818,7 +818,7 @@ export const prodParasPolkadot: Omit<EndpointOption, 'teleport'>[] = [
       'Geo Load Balancer': 'wss://ws.unique.network',
       IBP1: 'wss://unique.ibp.network',
       IBP2: 'wss://unique.dotters.network',
-      // OnFinality: 'wss://unique.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/10030
+      // OnFinality: 'wss://unique.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10030
       'Unique America': 'wss://us-ws.unique.network',
       'Unique Asia': 'wss://asia-ws.unique.network',
       'Unique Europe': 'wss://eu-ws.unique.network'
@@ -974,7 +974,7 @@ export const prodRelayPolkadot: EndpointOption = {
   ],
   providers: {
     Allnodes: 'wss://polkadot-rpc.publicnode.com',
-    // 'Geometry Labs': 'wss://polkadot.geometry.io/websockets', // https://github.com/polkadot-js/apps/pull/6746
+    // 'Geometry Labs': 'wss://polkadot.geometry.io/websockets', // https://github.com/Uomi-network/uomi-substrate-explorer/pull/6746
     // 'Automata 1RPC': 'wss://1rpc.io/dot',
     Blockops: 'wss://polkadot-public-rpc.blockops.network/ws',
     Dwellir: 'wss://polkadot-rpc.dwellir.com',
@@ -986,7 +986,7 @@ export const prodRelayPolkadot: EndpointOption = {
     RadiumBlock: 'wss://polkadot.public.curie.radiumblock.co/ws',
     RockX: 'wss://rockx-dot.w3node.com/polka-public-dot/ws',
     Stakeworld: 'wss://dot-rpc.stakeworld.io',
-    // SubQuery: 'wss://polkadot.rpc.subquery.network/public/ws', // https://github.com/polkadot-js/apps/issues/10762
+    // SubQuery: 'wss://polkadot.rpc.subquery.network/public/ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10762
     'light client': 'light://substrate-connect/polkadot'
   },
   teleport: getTeleports(prodParasPolkadotCommon),

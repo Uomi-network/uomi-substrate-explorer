@@ -21,7 +21,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'aband',
     paraId: 2257,
     providers: {
-      // 'Aband DAO': 'wss://rpc-parachain.a.band' // https://github.com/polkadot-js/apps/issues/9334
+      // 'Aband DAO': 'wss://rpc-parachain.a.band' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9334
     },
     text: 'Aband',
     ui: {
@@ -35,7 +35,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2239,
     providers: {
       Acurast: 'wss://public-rpc.canary.acurast.com'
-      // Acurast: 'wss://acurast-canarynet-ws.prod.gke.papers.tech' // https://github.com/polkadot-js/apps/issues/10667
+      // Acurast: 'wss://acurast-canarynet-ws.prod.gke.papers.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10667
     },
     text: 'Acurast Canary',
     ui: {
@@ -93,7 +93,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Basilisk: 'wss://rpc.basilisk.cloud',
       Dwellir: 'wss://basilisk-rpc.dwellir.com'
-      // OnFinality: 'wss://basilisk.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9414
+      // OnFinality: 'wss://basilisk.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9414
     },
     text: 'Basilisk',
     ui: {
@@ -167,7 +167,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2225,
     providers: {
       // also duplicated right above (hence marked unreachable)
-      // Crust: 'wss://rpc-shadow.crust.network/' // https://github.com/polkadot-js/apps/issues/8355
+      // Crust: 'wss://rpc-shadow.crust.network/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8355
     },
     text: 'Crust Shadow 2',
     ui: {
@@ -203,7 +203,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'dorafactory',
     paraId: 2115,
     providers: {
-      // DORA: 'wss://kusama.dorafactory.org' // https://github.com/polkadot-js/apps/issues/9748
+      // DORA: 'wss://kusama.dorafactory.org' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9748
     },
     text: 'Dora Factory',
     ui: {
@@ -216,7 +216,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'Genshiro',
     paraId: 2024,
     providers: {
-      // Genshiro: 'wss://node.genshiro.io' // https://github.com/polkadot-js/apps/issues/10174
+      // Genshiro: 'wss://node.genshiro.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10174
     },
     text: 'Genshiro',
     ui: {
@@ -230,7 +230,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     isUnreachable: true,
     paraId: 2226,
     providers: {
-      // Equilibrium: 'wss://node.genshiro.io' // https://github.com/polkadot-js/apps/issues/10174
+      // Equilibrium: 'wss://node.genshiro.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10174
     },
     text: 'Genshiro crowdloan 2',
     ui: {
@@ -243,11 +243,11 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'gm',
     paraId: 2123,
     providers: {
-      // GMorDieDAO: 'wss://kusama.gmordie.com', // https://github.com/polkadot-js/apps/issues/8457
-      // 'GM Intern': 'wss://intern.gmordie.com', // https://github.com/polkadot-js/apps/issues/9381
-      // TerraBioDAO: 'wss://ws-node-gm.terrabiodao.org', // https://github.com/polkadot-js/apps/issues/8867
-      // Leemo: 'wss://leemo.gmordie.com', // https://github.com/polkadot-js/apps/issues/9712
-      // 'bLd Nodes': 'wss://ws.gm.bldnodes.org', // https://github.com/polkadot-js/apps/issues/9947
+      // GMorDieDAO: 'wss://kusama.gmordie.com', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8457
+      // 'GM Intern': 'wss://intern.gmordie.com', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9381
+      // TerraBioDAO: 'wss://ws-node-gm.terrabiodao.org', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8867
+      // Leemo: 'wss://leemo.gmordie.com', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9712
+      // 'bLd Nodes': 'wss://ws.gm.bldnodes.org', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9947
       'light client': 'light://substrate-connect/kusama/gm'
     },
     text: 'GM',
@@ -261,7 +261,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'hyperbridge',
     paraId: 3340,
     providers: {
-      // BlockOps: 'wss://hyperbridge-messier-rpc.blockops.network' // https://github.com/polkadot-js/apps/issues/10555
+      // BlockOps: 'wss://hyperbridge-messier-rpc.blockops.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10555
     },
     text: 'Hyperbridge (Messier)',
     ui: {
@@ -275,7 +275,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2121,
     providers: {
       'Imbue Network 0': 'wss://kusama.imbuenetwork.com'
-      // 'Imbue Network 1': 'wss://collator.production.imbue.network' // https://github.com/polkadot-js/apps/issues/9848
+      // 'Imbue Network 1': 'wss://collator.production.imbue.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9848
     },
     text: 'Imbue Network',
     ui: {
@@ -302,9 +302,9 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'tinker',
     paraId: 2125,
     providers: {
-      // 'InvArch Team': 'wss://tinker.invarch.network', // https://github.com/polkadot-js/apps/issues/8623
+      // 'InvArch Team': 'wss://tinker.invarch.network', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8623
       Dwellir: 'wss://tinkernet-rpc.dwellir.com',
-      // OnFinality: 'wss://invarch-tinkernet.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9955
+      // OnFinality: 'wss://invarch-tinkernet.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9955
       'light client': 'light://substrate-connect/kusama/tinkernet'
     },
     text: 'InvArch Tinkernet',
@@ -336,9 +336,9 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
       'Acala Foundation 2': 'wss://karura-rpc-2.aca-api.network/ws',
       'Acala Foundation 3': 'wss://karura-rpc-3.aca-api.network/ws',
       Dwellir: 'wss://karura-rpc.dwellir.com',
-      // LuckyFriday: 'wss://rpc-karura.luckyfriday.io',  // https://github.com/polkadot-js/apps/issues/10663
+      // LuckyFriday: 'wss://rpc-karura.luckyfriday.io',  // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10663
       OnFinality: 'wss://karura.api.onfinality.io/public-ws'
-      // 'Polkawallet 0': 'wss://karura.polkawallet.io' // https://github.com/polkadot-js/apps/issues/9383
+      // 'Polkawallet 0': 'wss://karura.polkawallet.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9383
     },
     text: 'Karura',
     ui: {
@@ -356,7 +356,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
       OnFinality: 'wss://khala.api.onfinality.io/public-ws',
       Phala: 'wss://khala-api.phala.network/ws',
       RadiumBlock: 'wss://khala.public.curie.radiumblock.co/ws'
-      // Rockx: 'wss://rockx-khala.w3node.com/polka-public-khala/ws' // https://github.com/polkadot-js/apps/issues/10728
+      // Rockx: 'wss://rockx-khala.w3node.com/polka-public-khala/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
     },
     text: 'Khala Network',
     ui: {
@@ -369,8 +369,8 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'kico',
     paraId: 2107,
     providers: {
-      // 'DICO Foundation': 'wss://rpc.kico.dico.io' // https://github.com/polkadot-js/apps/issues/9266
-      // 'DICO Foundation 2': 'wss://rpc.api.kico.dico.io' // https://github.com/polkadot-js/apps/issues/8203
+      // 'DICO Foundation': 'wss://rpc.kico.dico.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9266
+      // 'DICO Foundation 2': 'wss://rpc.api.kico.dico.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8203
     },
     text: 'KICO',
     ui: {
@@ -383,7 +383,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'kico 2',
     paraId: 2235,
     providers: {
-      // 'DICO Foundation': 'wss://rpc.kico2.dico.io' // https://github.com/polkadot-js/apps/issues/8415
+      // 'DICO Foundation': 'wss://rpc.kico2.dico.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8415
     },
     text: 'KICO 2',
     ui: {
@@ -398,7 +398,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Dwellir: 'wss://kintsugi-rpc.dwellir.com',
       'Kintsugi Labs': 'wss://api-kusama.interlay.io/parachain',
-      // LuckyFriday: 'wss://rpc-kintsugi.luckyfriday.io/', // https://github.com/polkadot-js/apps/issues/9947
+      // LuckyFriday: 'wss://rpc-kintsugi.luckyfriday.io/', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9947
       OnFinality: 'wss://kintsugi.api.onfinality.io/public-ws'
     },
     text: 'Kintsugi BTC',
@@ -456,8 +456,8 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'listen',
     paraId: 2118,
     providers: {
-      // 'Listen Foundation 1': 'wss://rpc.mainnet.listen.io', // https://github.com/polkadot-js/apps/issues/9069
-      // 'Listen Foundation 2': 'wss://wss.mainnet.listen.io' // https://github.com/polkadot-js/apps/issues/9106
+      // 'Listen Foundation 1': 'wss://rpc.mainnet.listen.io', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9069
+      // 'Listen Foundation 2': 'wss://wss.mainnet.listen.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9106
     },
     text: 'Listen Network',
     ui: {
@@ -483,7 +483,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'loomNetwork',
     paraId: 2080,
     providers: {
-      // LoomNetwork: 'wss://kusama.dappchains.com' // https://github.com/polkadot-js/apps/issues/5888
+      // LoomNetwork: 'wss://kusama.dappchains.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/5888
     },
     text: 'Loom Network',
     ui: {
@@ -509,7 +509,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'mars',
     paraId: 2008,
     providers: {
-      // AresProtocol: 'wss://wss.mars.aresprotocol.io' // https://github.com/polkadot-js/apps/issues/8937
+      // AresProtocol: 'wss://wss.mars.aresprotocol.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8937
     },
     text: 'Mars',
     ui: {
@@ -541,7 +541,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'heiko',
     paraId: 2085,
     providers: {
-      // OnFinality: 'wss://parallel-heiko.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9964
+      // OnFinality: 'wss://parallel-heiko.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9964
       Parallel: 'wss://heiko-rpc.parallel.fi'
     },
     text: 'Parallel Heiko',
@@ -569,7 +569,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Composable: 'wss://rpc.composablenodes.tech',
       Dwellir: 'wss://picasso-rpc.dwellir.com'
-      // LuckyFriday: 'wss://rpc-picasso.luckyfriday.io' // https://github.com/polkadot-js/apps/issues/9947
+      // LuckyFriday: 'wss://rpc-picasso.luckyfriday.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9947
     },
     text: 'Picasso',
     ui: {
@@ -582,7 +582,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'pichiu',
     paraId: 2102,
     providers: {
-      // 'Kylin Network': 'wss://kusama.kylin-node.co.uk' // https://github.com/polkadot-js/apps/issues/9560
+      // 'Kylin Network': 'wss://kusama.kylin-node.co.uk' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9560
     },
     text: 'Pichiu',
     ui: {
@@ -596,7 +596,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2096,
     providers: {
       MetaverseNetwork: 'wss://pioneer-rpc-3.bit.country/wss'
-      // OnFinality: 'wss://pioneer.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9955
+      // OnFinality: 'wss://pioneer.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9955
     },
     text: 'Pioneer',
     ui: {
@@ -609,7 +609,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'polkasmith',
     paraId: 2009,
     providers: {
-      // PolkaSmith: 'wss://wss-polkasmith.polkafoundry.com' // https://github.com/polkadot-js/apps/issues/6595
+      // PolkaSmith: 'wss://wss-polkasmith.polkafoundry.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6595
     },
     text: 'PolkaSmith by PolkaFoundry',
     ui: {
@@ -621,7 +621,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'qpn',
     paraId: 2274,
     providers: {
-      // FerrumNetwork: 'wss://qpn.svcs.ferrumnetwork.io/' // https://github.com/polkadot-js/apps/issues/10172
+      // FerrumNetwork: 'wss://qpn.svcs.ferrumnetwork.io/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
     },
     text: 'Quantum Portal Network',
     ui: {
@@ -635,7 +635,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2095,
     providers: {
       Dwellir: 'wss://quartz-rpc.dwellir.com',
-      // OnFinality: 'wss://quartz.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9972
+      // OnFinality: 'wss://quartz.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9972
       'Geo Load Balancer': 'wss://ws-quartz.unique.network',
       'Unique America': 'wss://us-ws-quartz.unique.network',
       'Unique Asia': 'wss://asia-ws-quartz.unique.network',
@@ -652,7 +652,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'riodefi',
     paraId: 2227,
     providers: {
-      // RioProtocol: 'wss://rio-kusama.riocorenetwork.com' // https://github.com/polkadot-js/apps/issues/9261
+      // RioProtocol: 'wss://rio-kusama.riocorenetwork.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9261
     },
     text: 'RioDeFi',
     ui: {
@@ -667,8 +667,8 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     providers: {
       Airalab: 'wss://kusama.rpc.robonomics.network/',
       Dwellir: 'wss://robonomics-rpc.dwellir.com',
-      // Leemo: 'wss://robonomics.leemo.me', // https://github.com/polkadot-js/apps/issues/9817
-      // OnFinality: 'wss://robonomics.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9824
+      // Leemo: 'wss://robonomics.leemo.me', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9817
+      // OnFinality: 'wss://robonomics.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9824
       Samsara: 'wss://robonomics.0xsamsara.com'
     },
     text: 'Robonomics',
@@ -684,8 +684,8 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     paraId: 2240,
     providers: {
       Airalab: 'wss://kusama.rpc.robonomics.network/',
-      // Leemo: 'wss://robonomics.leemo.me', // https://github.com/polkadot-js/apps/issues/9817
-      // OnFinality: 'wss://robonomics.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9824
+      // Leemo: 'wss://robonomics.leemo.me', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9817
+      // OnFinality: 'wss://robonomics.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9824
       Samsara: 'wss://robonomics.0xsamsara.com'
     },
     text: 'Robonomics 2',
@@ -745,7 +745,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'snow',
     paraId: 2129,
     providers: {
-      // IceNetwork: 'wss://snow-rpc.icenetwork.io' // https://github.com/polkadot-js/apps/issues/9405
+      // IceNetwork: 'wss://snow-rpc.icenetwork.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9405
     },
     text: 'SNOW Network',
     ui: {
@@ -770,7 +770,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'subgame',
     paraId: 2018,
     providers: {
-      // SubGame: 'wss://gamma.subgame.org/' // https://github.com/polkadot-js/apps/issues/7982
+      // SubGame: 'wss://gamma.subgame.org/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/7982
     },
     text: 'SubGame Gamma',
     ui: {
@@ -796,7 +796,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 't1rn',
     paraId: 3334,
     providers: {
-      // t3rn: 'wss://rpc.t1rn.io' // https://github.com/polkadot-js/apps/issues/10091
+      // t3rn: 'wss://rpc.t1rn.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10091
     },
     text: 't1rn',
     ui: {
@@ -809,7 +809,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'tanganika',
     paraId: 2116,
     providers: {
-      // DataHighway: 'wss://tanganika.datahighway.com' // https://github.com/polkadot-js/apps/issues/9383
+      // DataHighway: 'wss://tanganika.datahighway.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9383
     },
     text: 'Tanganika',
     ui: {
@@ -848,7 +848,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'unorthodox',
     paraId: 2094,
     providers: {
-      // 'Standard Protocol': 'wss://rpc.kusama.standard.tech' // https://github.com/polkadot-js/apps/issues/8525
+      // 'Standard Protocol': 'wss://rpc.kusama.standard.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8525
     },
     text: 'Unorthodox',
     ui: {
@@ -885,7 +885,7 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'zero',
     paraId: 2236,
     providers: {
-      // 'Zero Network': 'wss://rpc-1.kusama.node.zero.io' // https://github.com/polkadot-js/apps/issues/10803
+      // 'Zero Network': 'wss://rpc-1.kusama.node.zero.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10803
     },
     text: 'ZERO Canary',
     ui: {
@@ -970,7 +970,7 @@ export const prodParasKusamaCommon: EndpointOption[] = [
       'Encointer Association': 'wss://kusama.api.encointer.org',
       IBP1: 'wss://sys.ibp.network/encointer-kusama',
       IBP2: 'wss://sys.dotters.network/encointer-kusama'
-      // OnFinality: 'wss://encointer.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9986
+      // OnFinality: 'wss://encointer.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9986
       // Stakeworld: 'wss://ksm-rpc.stakeworld.io/encointer'
     },
     relayName: 'kusama',
@@ -1015,7 +1015,7 @@ export const prodRelayKusama: EndpointOption = {
     ...prodParasKusama
   ],
   providers: {
-    // 'Geometry Labs': 'wss://kusama.geometry.io/websockets', // https://github.com/polkadot-js/apps/pull/6746
+    // 'Geometry Labs': 'wss://kusama.geometry.io/websockets', // https://github.com/Uomi-network/uomi-substrate-explorer/pull/6746
     // 'Automata 1RPC': 'wss://1rpc.io/ksm',
     Allnodes: 'wss://kusama-rpc.publicnode.com',
     Dwellir: 'wss://kusama-rpc.dwellir.com',
@@ -1027,7 +1027,7 @@ export const prodRelayKusama: EndpointOption = {
     RadiumBlock: 'wss://kusama.public.curie.radiumblock.co/ws',
     RockX: 'wss://rockx-ksm.w3node.com/polka-public-ksm/ws',
     Stakeworld: 'wss://ksm-rpc.stakeworld.io',
-    // SubQuery: 'wss://kusama.rpc.subquery.network/public/ws', // https://github.com/polkadot-js/apps/issues/10762
+    // SubQuery: 'wss://kusama.rpc.subquery.network/public/ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10762
     'light client': 'light://substrate-connect/kusama'
   },
   teleport: getTeleports(prodParasKusamaCommon),

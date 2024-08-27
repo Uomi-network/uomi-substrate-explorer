@@ -7,7 +7,7 @@ import type { ExternalDef } from './types.js';
 import { externalPolkastatsPNG } from '../ui/logos/external/index.js';
 
 // NOTE Not maintained, see breakage reports in
-// https://github.com/polkadot-js/apps/issues/8903
+// https://github.com/Uomi-network/uomi-substrate-explorer/issues/8903
 export const Polkastats: ExternalDef = {
   chains: {
     Kusama: 'kusama',

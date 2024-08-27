@@ -1,18 +1,18 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/apps/issues",
+  "bugs": "https://github.com/Uomi-network/uomi-substrate-explorer/issues",
   "description": "An Apps portal into the Polkadot network",
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/polkadot-js/apps/tree/master/packages/apps-electron#readme",
+  "homepage": "https://github.com/Uomi-network/uomi-substrate-explorer/tree/master/packages/apps-electron#readme",
   "license": "Apache-2.0",
   "name": "@polkadot/apps-electron",
   "private": true,
   "repository": {
     "directory": "packages/apps-electron",
     "type": "git",
-    "url": "https://github.com/polkadot-js/apps.git"
+    "url": "https://github.com/Uomi-network/uomi-substrate-explorer"
   },
   "sideEffects": false,
   "version": "0.143.3-7-x",

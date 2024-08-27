@@ -40,7 +40,7 @@ const OPT_ID = {
       ? optId.unwrap()
       : null;
 
-    // Backwards compatibility - https://github.com/polkadot-js/apps/issues/10493
+    // Backwards compatibility - https://github.com/Uomi-network/uomi-substrate-explorer/issues/10493
     return !id
       ? null
       : Array.isArray(id)

@@ -54,7 +54,7 @@ function extractTotals (stakingInfo?: DeriveStakingAccountPartial, progress?: De
           // would be down and then when a session completes, would be higher again, just to
           // repeat the cycle again
           //
-          // See https://github.com/polkadot-js/apps/issues/9397#issuecomment-1532465939
+          // See https://github.com/Uomi-network/uomi-substrate-explorer/issues/9397#issuecomment-1532465939
           isStalled
             ? progress.eraProgress.mod(progress.eraLength)
             : progress.eraProgress

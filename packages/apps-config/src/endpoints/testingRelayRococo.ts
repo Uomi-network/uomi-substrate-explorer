@@ -21,7 +21,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoAcurast',
     paraId: 2239,
     providers: {
-      // Acurast: 'wss://acurast-testnet-ws.prod.gke.papers.tech' // https://github.com/polkadot-js/apps/issues/10566
+      // Acurast: 'wss://acurast-testnet-ws.prod.gke.papers.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10566
     },
     text: 'Acurast Testnet',
     ui: {
@@ -45,7 +45,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'arctic',
     paraId: 3015,
     providers: {
-      // Arctic: 'wss://arctic-rococo-rpc.icenetwork.io' // https://github.com/polkadot-js/apps/issues/9224
+      // Arctic: 'wss://arctic-rococo-rpc.icenetwork.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9224
     },
     text: 'Arctic',
     ui: {
@@ -68,7 +68,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoBitgreen',
     paraId: 20048,
     providers: {
-      // Bitgreen: 'wss://staging.bitgreen.org' // https://github.com/polkadot-js/apps/issues/9369
+      // Bitgreen: 'wss://staging.bitgreen.org' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9369
     },
     text: 'Bitgreen',
     ui: {
@@ -80,7 +80,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoCatalyst',
     paraId: 2031,
     providers: {
-      // Centrifuge: 'wss://fullnode.catalyst.cntrfg.com' // https://github.com/polkadot-js/apps/issues/9748
+      // Centrifuge: 'wss://fullnode.catalyst.cntrfg.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9748
     },
     text: 'Catalyst',
     ui: {
@@ -91,7 +91,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoConfti',
     paraId: 4094,
     providers: {
-      // Confti: 'wss://ws.confti.club' // https://github.com/polkadot-js/apps/issues/8036
+      // Confti: 'wss://ws.confti.club' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8036
     },
     text: 'Confti',
     ui: {
@@ -102,7 +102,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoCrust',
     paraId: 2012,
     providers: {
-      // Crust: 'wss://rococo-csm.crustcode.com/' // https://github.com/polkadot-js/apps/issues/9025
+      // Crust: 'wss://rococo-csm.crustcode.com/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9025
     },
     text: 'Crust Testnet',
     ui: {
@@ -125,7 +125,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoDolphin',
     paraId: 2084,
     providers: {
-      // 'Manta Network': 'wss://ws.rococo.dolphin.engineering' // https://github.com/polkadot-js/apps/issues/9071
+      // 'Manta Network': 'wss://ws.rococo.dolphin.engineering' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9071
     },
     text: 'Dolphin',
     ui: {
@@ -136,7 +136,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoEthos',
     paraId: 2095,
     providers: {
-      // Jur: 'wss://ethos.jur.io' // https://github.com/polkadot-js/apps/issues/10025
+      // Jur: 'wss://ethos.jur.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10025
     },
     text: 'Ethos',
     ui: {
@@ -148,7 +148,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoGenshiro',
     paraId: 2024,
     providers: {
-      // Equilibrium: 'wss://parachain-testnet.equilab.io/rococo/collator/node1/wss' // https://github.com/polkadot-js/apps/issues/9059
+      // Equilibrium: 'wss://parachain-testnet.equilab.io/rococo/collator/node1/wss' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'Genshiro Testnet',
     ui: {
@@ -160,7 +160,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'giantTestnet',
     paraId: 4227,
     providers: {
-      // GIANT: 'wss://rpc-1-us-east-1-testnetrococo.giantprotocol.org' // https://github.com/polkadot-js/apps/issues/9261
+      // GIANT: 'wss://rpc-1-us-east-1-testnetrococo.giantprotocol.org' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9261
     },
     text: 'GIANT Protocol',
     ui: {
@@ -172,7 +172,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'helixstreet',
     paraId: 3025,
     providers: {
-      // Helixstreet: 'wss://rpc-rococo.helixstreet.io' // https://github.com/polkadot-js/apps/issues/9296
+      // Helixstreet: 'wss://rpc-rococo.helixstreet.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9296
     },
     text: 'Helixstreet',
     ui: {
@@ -183,7 +183,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoHydraDX',
     paraId: 2034,
     providers: {
-      // 'Galactic Council': 'wss://hydradx-rococo-rpc.play.hydration.cloud' // https://github.com/polkadot-js/apps/issues/10667
+      // 'Galactic Council': 'wss://hydradx-rococo-rpc.play.hydration.cloud' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10667
     },
     text: 'HydraDX',
     ui: {
@@ -208,7 +208,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoIdiyanale',
     paraId: 4222,
     providers: {
-      // 'Anagolay Network': 'wss://rococo.rpc.idiyanale.anagolay.io' // https://github.com/polkadot-js/apps/issues/9292
+      // 'Anagolay Network': 'wss://rococo.rpc.idiyanale.anagolay.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9292
     },
     text: 'Idiyanale Network',
     ui: {
@@ -220,7 +220,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoImbue',
     paraId: 2121,
     providers: {
-      // 'Imbue Network': 'wss://rococo.imbue.network' // https://github.com/polkadot-js/apps/issues/9947
+      // 'Imbue Network': 'wss://rococo.imbue.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9947
     },
     text: 'Imbue Network',
     ui: {
@@ -232,7 +232,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoIntegritee',
     paraId: 3002,
     providers: {
-      // Integritee: 'wss://rococo.api.integritee.network' // https://github.com/polkadot-js/apps/issues/10353
+      // Integritee: 'wss://rococo.api.integritee.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10353
     },
     text: 'Integritee Network',
     ui: {
@@ -245,7 +245,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoInvo',
     paraId: 4377,
     providers: {
-      // 'Invo Network': 'wss://chain.dev.ourinvo.com' // https://github.com/polkadot-js/apps/issues/10555
+      // 'Invo Network': 'wss://chain.dev.ourinvo.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10555
     },
     text: 'Invo Testnet',
     ui: {
@@ -257,7 +257,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoKabocha',
     paraId: 2113,
     providers: {
-      // JelliedOwl: 'wss://kabsoup1.jelliedowl.com' // https://github.com/polkadot-js/apps/issues/9059
+      // JelliedOwl: 'wss://kabsoup1.jelliedowl.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'Kabocha (kabsoup)',
     ui: {
@@ -270,7 +270,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoKaizen',
     paraId: 2040,
     providers: {
-      // 'Polkadex Team': 'wss://kaizen-parachain.polkadex.trade' // https://github.com/polkadot-js/apps/issues/9059
+      // 'Polkadex Team': 'wss://kaizen-parachain.polkadex.trade' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'Kaizen',
     ui: {
@@ -345,7 +345,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoMoonsama',
     paraId: 2055,
     providers: {
-      // Moonsama: 'wss://moonsama-testnet-rpc.moonsama.com' // https://github.com/polkadot-js/apps/issues/7526
+      // Moonsama: 'wss://moonsama-testnet-rpc.moonsama.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/7526
     },
     text: 'Moonsama',
     ui: {
@@ -403,7 +403,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoPicasso',
     paraId: 2087,
     providers: {
-      // Composable: 'wss://picasso-rococo-rpc-lb.composablenodes.tech' // https://github.com/polkadot-js/apps/issues/10103
+      // Composable: 'wss://picasso-rococo-rpc-lb.composablenodes.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10103
     },
     text: 'Picasso Testnet',
     ui: {
@@ -463,7 +463,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'robonomics',
     paraId: 2048,
     providers: {
-      // Airalab: 'wss://rococo.rpc.robonomics.network' // https://github.com/polkadot-js/apps/issues/9319
+      // Airalab: 'wss://rococo.rpc.robonomics.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9319
     },
     text: 'Robonomics',
     ui: {
@@ -475,7 +475,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rocfinity',
     paraId: 2021,
     providers: {
-      // Efinity: 'wss://rpc.rococo.efinity.io' // https://github.com/polkadot-js/apps/issues/9059
+      // Efinity: 'wss://rpc.rococo.efinity.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'Rocfinity',
     ui: {
@@ -487,7 +487,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'snowbridgeAssetHub',
     paraId: 3416,
     providers: {
-      // Snowfork: 'wss://rococo-rpc.snowbridge.network/assethub' // https://github.com/polkadot-js/apps/issues/10091
+      // Snowfork: 'wss://rococo-rpc.snowbridge.network/assethub' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10091
     },
     text: 'Snowbridge Asset Hub',
     ui: {
@@ -498,7 +498,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'snowbridgeBridgeHub',
     paraId: 3016,
     providers: {
-      // Snowfork: 'wss://rococo-rpc.snowbridge.network/bridgehub' // https://github.com/polkadot-js/apps/issues/10091
+      // Snowfork: 'wss://rococo-rpc.snowbridge.network/bridgehub' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10091
     },
     text: 'Snowbridge Bridge Hub',
     ui: {
@@ -509,7 +509,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoSocietal',
     paraId: 4253,
     providers: {
-      // Societal: 'wss://node-ws-rococo.testnet.sctl.link' // https://github.com/polkadot-js/apps/issues/9748
+      // Societal: 'wss://node-ws-rococo.testnet.sctl.link' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9748
     },
     text: 'Societal',
     ui: {
@@ -545,7 +545,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoSpreehafen',
     paraId: 2116,
     providers: {
-      // DataHighway: 'wss://spreehafen.datahighway.com' // https://github.com/polkadot-js/apps/issues/9601
+      // DataHighway: 'wss://spreehafen.datahighway.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9601
     },
     text: 'Spreehafen',
     ui: {
@@ -558,7 +558,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'stagex',
     paraId: 2007,
     providers: {
-      // Totem: 'wss://s-ui.kapex.network' // https://github.com/polkadot-js/apps/issues/9286
+      // Totem: 'wss://s-ui.kapex.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9286
     },
     text: 'Stagex',
     ui: {
@@ -570,7 +570,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoSubzero',
     paraId: 4040,
     providers: {
-      // ZERO: 'wss://staging.para.sub.zero.io' // https://github.com/polkadot-js/apps/issues/9522
+      // ZERO: 'wss://staging.para.sub.zero.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9522
     },
     text: 'Subzero',
     ui: {
@@ -581,7 +581,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 't0rn',
     paraId: 3333,
     providers: {
-      // t3rn: 'wss://rpc.t0rn.io' // https://github.com/polkadot-js/apps/issues/10728
+      // t3rn: 'wss://rpc.t0rn.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
     },
     text: 't0rn',
     ui: {
@@ -593,7 +593,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoTinkernet',
     paraId: 2125,
     providers: {
-      // 'InvArch Team': 'wss://rococo.invarch.network' // https://github.com/polkadot-js/apps/issues/8266
+      // 'InvArch Team': 'wss://rococo.invarch.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8266
     },
     text: 'Tinkernet',
     ui: {
@@ -605,7 +605,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoTuring',
     paraId: 2114,
     providers: {
-      // OAK: 'wss://rpc.turing-staging.oak.tech' // https://github.com/polkadot-js/apps/issues/10555
+      // OAK: 'wss://rpc.turing-staging.oak.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10555
     },
     text: 'Turing Network (Staging)',
     ui: {
@@ -617,7 +617,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoUnitNetwork',
     paraId: 4168,
     providers: {
-      // UnitNetwork: 'wss://www.unitnode3.info:443' // https://github.com/polkadot-js/apps/issues/9609
+      // UnitNetwork: 'wss://www.unitnode3.info:443' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9609
     },
     text: 'Unit Network',
     ui: {
@@ -629,7 +629,7 @@ export const testParasRococo: Omit<EndpointOption, 'teleport'>[] = [
     info: 'rococoVirto',
     paraId: 3003,
     providers: {
-      // VirtoNetwork: 'wss://rococo.virtonetwork.xyz' // https://github.com/polkadot-js/apps/issues/8024
+      // VirtoNetwork: 'wss://rococo.virtonetwork.xyz' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8024
     },
     text: 'Virto',
     ui: {
@@ -776,7 +776,7 @@ export const testRelayRococo: EndpointOption = {
   ],
   providers: {
     Parity: 'wss://rococo-rpc.polkadot.io',
-    // 'Ares Protocol': 'wss://rococo.aresprotocol.com' // https://github.com/polkadot-js/apps/issues/5767
+    // 'Ares Protocol': 'wss://rococo.aresprotocol.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/5767
     'light client': 'light://substrate-connect/rococo'
   },
   teleport: getTeleports(testParasRococoCommon),

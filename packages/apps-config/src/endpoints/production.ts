@@ -55,7 +55,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'Ares Odyssey',
     providers: {
-      // 'Ares Protocol': 'wss://odyssey.aresprotocol.io' // https://github.com/polkadot-js/apps/issues/10411
+      // 'Ares Protocol': 'wss://odyssey.aresprotocol.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10411
     },
     text: 'Ares Odyssey',
     ui: {
@@ -78,7 +78,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'bittensor',
     providers: {
-      // Dwellir: 'wss://bittensor-mainnet-rpc.dwellir.com', // https://github.com/polkadot-js/apps/issues/10728
+      // Dwellir: 'wss://bittensor-mainnet-rpc.dwellir.com', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
       'Opentensor Fdn (Archive)': 'wss://entrypoint-finney.opentensor.ai:443'
     },
     text: 'Bittensor',
@@ -90,7 +90,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'centrifuge',
     providers: {
-      // Centrifuge: 'wss://fullnode.centrifuge.io' // https://github.com/polkadot-js/apps/issues/8012
+      // Centrifuge: 'wss://fullnode.centrifuge.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8012
     },
     text: 'Centrifuge Standalone [Archived]',
     ui: {
@@ -102,7 +102,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
     info: 'cere',
     providers: {
       'Cere Network': 'wss://archive.mainnet.cere.network/ws'
-      // 'Republic Crypto | Runtime': 'wss://mainnet.cere-archive.republiccrypto-runtime.com:444' // https://github.com/polkadot-js/apps/issues/9828
+      // 'Republic Crypto | Runtime': 'wss://mainnet.cere-archive.republiccrypto-runtime.com:444' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9828
     },
     text: 'Cere Network',
     ui: {
@@ -148,7 +148,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'competitors-club',
     providers: {
-      // 'Competitors Club': 'wss://node0.competitors.club/wss' // https://github.com/polkadot-js/apps/issues/8263
+      // 'Competitors Club': 'wss://node0.competitors.club/wss' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8263
     },
     text: 'Competitors Club',
     ui: {
@@ -170,7 +170,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'crown-sterling',
     providers: {
-      // 'Crown Sterling': 'wss://blockchain.crownsterling.io' https://github.com/polkadot-js/apps/issues/10289
+      // 'Crown Sterling': 'wss://blockchain.crownsterling.io' https://github.com/Uomi-network/uomi-substrate-explorer/issues/10289
     },
     text: 'Crown Sterling',
     ui: {
@@ -197,7 +197,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'debio',
     providers: {
-      // DeBio: 'wss://ws-rpc.debio.network', // https://github.com/polkadot-js/apps/issues/10118
+      // DeBio: 'wss://ws-rpc.debio.network', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10118
       Octopus: 'wss://gateway.mainnet.octopus.network/debionetwork/ae48005a0c7ecb4053394559a7f4069e'
     },
     text: 'DeBio',
@@ -219,12 +219,12 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'edgeware',
     providers: {
-      // 'Commonwealth Labs': 'wss://mainnet2.edgewa.re', // https://github.com/polkadot-js/apps/issues/10373
+      // 'Commonwealth Labs': 'wss://mainnet2.edgewa.re', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10373
       'JelliedOwl London': 'wss://edgeware-rpc1.jelliedowl.net',
       'JelliedOwl Los Angeles': 'wss://edgeware-rpc3.jelliedowl.net',
       'JelliedOwl New York': 'wss://edgeware-rpc0.jelliedowl.net',
       'JelliedOwl Singapore': 'wss://edgeware-rpc2.jelliedowl.net'
-      // OnFinality: 'wss://edgeware.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/9795
+      // OnFinality: 'wss://edgeware.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9795
     },
     text: 'Edgeware',
     ui: {
@@ -235,7 +235,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'efinity',
     providers: {
-      // Efinity: 'wss://rpc.efinity.io' // https://github.com/polkadot-js/apps/pull/6761
+      // Efinity: 'wss://rpc.efinity.io' // https://github.com/Uomi-network/uomi-substrate-explorer/pull/6761
     },
     text: 'Efinity',
     ui: {
@@ -257,7 +257,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'fragnova',
     providers: {
-      // 'Fragnova Network': 'wss://ws.fragnova.network' // https://github.com/polkadot-js/apps/issues/10172
+      // 'Fragnova Network': 'wss://ws.fragnova.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
     },
     text: 'Fragnova', // The text to display on the dropdown
     ui: {
@@ -268,7 +268,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'hanonycash',
     providers: {
-      // Hanonycash: 'wss://rpc.hanonycash.com' // https://github.com/polkadot-js/apps/runs/2755409009?check_suite_focus=true
+      // Hanonycash: 'wss://rpc.hanonycash.com' // https://github.com/Uomi-network/uomi-substrate-explorer/runs/2755409009?check_suite_focus=true
     },
     text: 'Hanonycash',
     ui: {
@@ -289,7 +289,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'innovatorchain',
     providers: {
-      // Innovator: 'wss://rpc.innovatorchain.com' // https://github.com/polkadot-js/apps/issues/10373
+      // Innovator: 'wss://rpc.innovatorchain.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10373
     },
     text: 'Innovator Chain',
     ui: {
@@ -312,8 +312,8 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'jur',
     providers: {
-      // 'Iceberg Nodes': 'wss://jur-mainnet-archive-rpc-1.icebergnodes.io' // https://github.com/polkadot-js/apps/issues/10289
-      // 'Simply Staking': 'wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws' // https://github.com/polkadot-js/apps/issues/10172
+      // 'Iceberg Nodes': 'wss://jur-mainnet-archive-rpc-1.icebergnodes.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10289
+      // 'Simply Staking': 'wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
     },
     text: 'Jur',
     ui: {
@@ -335,7 +335,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'kusari',
     providers: {
-      // Swapdex: 'wss://ws.kusari.network' // https://github.com/polkadot-js/apps/issues/9712
+      // Swapdex: 'wss://ws.kusari.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9712
     },
     text: 'Kusari',
     ui: {
@@ -358,7 +358,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'logion',
     providers: {
-      // 'Logion 1': 'wss://rpc01.logion.network' // https://github.com/polkadot-js/apps/issues/10667
+      // 'Logion 1': 'wss://rpc01.logion.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10667
     },
     text: 'Logion Solochain (Archive)',
     ui: {
@@ -369,8 +369,8 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'mathchain',
     providers: {
-      //  MathWallet: 'wss://mathchain-asia.maiziqianbao.net/ws', // https://github.com/polkadot-js/apps/issues/8525
-      // 'MathWallet Backup': 'wss://mathchain-us.maiziqianbao.net/ws' // https://github.com/polkadot-js/apps/issues/8525
+      //  MathWallet: 'wss://mathchain-asia.maiziqianbao.net/ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8525
+      // 'MathWallet Backup': 'wss://mathchain-us.maiziqianbao.net/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8525
     },
     text: 'MathChain',
     ui: {
@@ -381,7 +381,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'minix',
     providers: {
-      // ChainX: 'wss://minichain-mainnet.coming.chat/ws' // https://github.com/polkadot-js/apps/issues/7182
+      // ChainX: 'wss://minichain-mainnet.coming.chat/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/7182
     },
     text: 'MiniX',
     ui: {
@@ -392,7 +392,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'myriad',
     providers: {
-      // Myriad: 'wss://ws-rpc.myriad.social', // https://github.com/polkadot-js/apps/issues/10172
+      // Myriad: 'wss://ws-rpc.myriad.social', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
       Octopus: 'wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0'
     },
     text: 'Myriad',
@@ -422,8 +422,8 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'nodle',
     providers: {
-      // Nodle: 'wss://main3.nodleprotocol.io', // https://github.com/polkadot-js/apps/issues/7652
-      // OnFinality: 'wss://nodle.api.onfinality.io/public-ws' // https://github.com/polkadot-js/apps/issues/8013
+      // Nodle: 'wss://main3.nodleprotocol.io', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/7652
+      // OnFinality: 'wss://nodle.api.onfinality.io/public-ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8013
     },
     text: 'Nodle',
     ui: {
@@ -458,7 +458,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'riochain',
     providers: {
-      // RioChain: 'wss://node.v1.riochain.io' // https://github.com/polkadot-js/apps/issues/9054
+      // RioChain: 'wss://node.v1.riochain.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9054
     },
     text: 'RioChain',
     ui: {
@@ -469,7 +469,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'robonomics',
     providers: {
-      // Airalab: 'wss://kusama.rpc.robonomics.network/' // https://github.com/polkadot-js/apps/pull/6761
+      // Airalab: 'wss://kusama.rpc.robonomics.network/' // https://github.com/Uomi-network/uomi-substrate-explorer/pull/6761
     },
     text: 'Robonomics',
     ui: {
@@ -480,7 +480,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'sherpax',
     providers: {
-      // ChainX: 'wss://mainnet.sherpax.io' // https://github.com/polkadot-js/apps/issues/9712
+      // ChainX: 'wss://mainnet.sherpax.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9712
     },
     text: 'SherpaX',
     ui: {
@@ -505,7 +505,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'spanner',
     providers: {
-      // Spanner: 'wss://wss.spannerprotocol.com' // https://github.com/polkadot-js/apps/issues/6547
+      // Spanner: 'wss://wss.spannerprotocol.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6547
     },
     text: 'Spanner',
     ui: {
@@ -527,7 +527,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'subgame',
     providers: {
-      // SubGame: 'wss://mainnet.subgame.org/' // https://github.com/polkadot-js/apps/issues/9030
+      // SubGame: 'wss://mainnet.subgame.org/' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9030
     },
     text: 'SubGame',
     ui: {
@@ -538,7 +538,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'subsocial',
     providers: {
-      // DappForce: 'wss://rpc.subsocial.network' // https://github.com/polkadot-js/apps/issues/8046
+      // DappForce: 'wss://rpc.subsocial.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8046
     },
     text: 'Subsocial',
     ui: {
@@ -549,7 +549,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'swapdex',
     providers: {
-      // Swapdex: 'wss://ws.swapdex.network' // https://github.com/polkadot-js/apps/issues/10030
+      // Swapdex: 'wss://ws.swapdex.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10030
     },
     text: 'Swapdex',
     ui: {
@@ -572,7 +572,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'ternoa',
     providers: {
-      CapsuleCorp: 'wss://mainnet.ternoa.network' // https://github.com/polkadot-js/apps/issues/10172
+      CapsuleCorp: 'wss://mainnet.ternoa.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10172
     },
     text: 'Ternoa',
     ui: {
@@ -583,7 +583,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'uniarts',
     providers: {
-      // UniArts: 'wss://mainnet.uniarts.vip:9443' // https://github.com/polkadot-js/apps/issues/9059
+      // UniArts: 'wss://mainnet.uniarts.vip:9443' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9059
     },
     text: 'UniArts',
     ui: {
@@ -630,7 +630,7 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'westlake',
     providers: {
-      // DataHighway: 'wss://westlake.datahighway.com' // https://github.com/polkadot-js/apps/issues/7293
+      // DataHighway: 'wss://westlake.datahighway.com' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/7293
     },
     text: 'Westlake',
     ui: {

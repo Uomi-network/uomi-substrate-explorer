@@ -6,7 +6,7 @@ import type { Route, TFunction } from './types.js';
 import Component, { useCounter } from '@polkadot/app-claims';
 import { hasBuffer, u8aToBuffer } from '@polkadot/util';
 
-// See https://github.com/polkadot-js/apps/issues/10115 - this may not work,
+// See https://github.com/Uomi-network/uomi-substrate-explorer/issues/10115 - this may not work,
 // if not we will have to disable it all (no way of testing)
 function needsApiCheck (): boolean {
   try {

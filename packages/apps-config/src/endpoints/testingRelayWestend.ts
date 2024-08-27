@@ -20,7 +20,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'charcoal',
     paraId: 2086,
     providers: {
-      // Centrifuge: 'wss://fullnode-collator.charcoal.centrifuge.io' // https://github.com/polkadot-js/apps/issues/8219
+      // Centrifuge: 'wss://fullnode-collator.charcoal.centrifuge.io' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8219
     },
     text: 'Charcoal',
     ui: {
@@ -31,7 +31,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'integritee',
     paraId: 2081,
     providers: {
-      // Integritee: 'wss://teerw1.integritee.network' // https://github.com/polkadot-js/apps/issues/8937
+      // Integritee: 'wss://teerw1.integritee.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8937
     },
     text: 'Integritee Network',
     ui: {
@@ -43,7 +43,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'interlay',
     paraId: 2094,
     providers: {
-      // Interlay: 'wss://api-westend.interlay.io/parachain' // https://github.com/polkadot-js/apps/issues/6261
+      // Interlay: 'wss://api-westend.interlay.io/parachain' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6261
     },
     text: 'Interlay',
     ui: {
@@ -54,7 +54,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'moonshadow',
     paraId: 2002,
     providers: {
-      // PureStake: 'wss://wss.moonshadow.testnet.moonbeam.network' // https://github.com/polkadot-js/apps/issues/6181
+      // PureStake: 'wss://wss.moonshadow.testnet.moonbeam.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6181
     },
     text: 'Moonshadow',
     ui: {
@@ -67,7 +67,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'westendPichiu',
     paraId: 2112,
     providers: {
-      // 'Kylin Network': 'wss://westend.kylin-node.co.uk' // https://github.com/polkadot-js/apps/issues/8710
+      // 'Kylin Network': 'wss://westend.kylin-node.co.uk' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8710
     },
     text: 'Pichiu',
     ui: {
@@ -78,7 +78,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'westendStandard',
     paraId: 2094,
     providers: {
-      // 'Standard Protocol': 'wss://rpc.westend.standard.tech' // https://github.com/polkadot-js/apps/issues/8525
+      // 'Standard Protocol': 'wss://rpc.westend.standard.tech' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/8525
     },
     text: 'Standard',
     ui: {
@@ -89,7 +89,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'karura',
     paraId: 2005,
     providers: {
-      // 'Acala Foundation': 'wss://karura-westend-rpc.aca-staging.network' // https://github.com/polkadot-js/apps/issues/5830
+      // 'Acala Foundation': 'wss://karura-westend-rpc.aca-staging.network' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/5830
     },
     text: 'Wendala',
     ui: {
@@ -100,7 +100,7 @@ export const testParasWestend: Omit<EndpointOption, 'teleport'>[] = [
     info: 'whala',
     paraId: 2013,
     providers: {
-      // Phala: 'wss://whala.phala.network/ws' // https://github.com/polkadot-js/apps/issues/6181
+      // Phala: 'wss://whala.phala.network/ws' // https://github.com/Uomi-network/uomi-substrate-explorer/issues/6181
     },
     text: 'Whala',
     ui: {
@@ -120,7 +120,7 @@ export const testParasWestendCommon: EndpointOption[] = [
       'Dwellir Tunisia': 'wss://westmint-rpc-tn.dwellir.com',
       IBP1: 'wss://sys.ibp.network/westmint',
       IBP2: 'wss://sys.dotters.network/westmint',
-      // OnFinality: 'wss://westmint.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9955
+      // OnFinality: 'wss://westmint.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9955
       Parity: 'wss://westend-asset-hub-rpc.polkadot.io'
       // Stakeworld: 'wss://wnd-rpc.stakeworld.io/assethub'
     },
@@ -141,7 +141,7 @@ export const testParasWestendCommon: EndpointOption[] = [
       'Dwellir Tunisia': 'wss://westend-bridge-hub-rpc-tn.dwellir.com',
       IBP1: 'wss://sys.ibp.network/bridgehub-westend',
       IBP2: 'wss://sys.dotters.network/bridgehub-westend',
-      // OnFinality: 'wss://bridgehub-westend.api.onfinality.io/public-ws', // https://github.com/polkadot-js/apps/issues/9960
+      // OnFinality: 'wss://bridgehub-westend.api.onfinality.io/public-ws', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/9960
       Parity: 'wss://westend-bridge-hub-rpc.polkadot.io'
     },
     relayName: 'westend',
@@ -217,7 +217,7 @@ export const testRelayWestend: EndpointOption = {
     'Dwellir Tunisia': 'wss://westend-rpc-tn.dwellir.com',
     IBP1: 'wss://rpc.ibp.network/westend',
     IBP2: 'wss://rpc.dotters.network/westend',
-    // LuckyFriday: 'wss://rpc-westend.luckyfriday.io', // https://github.com/polkadot-js/apps/issues/10728
+    // LuckyFriday: 'wss://rpc-westend.luckyfriday.io', // https://github.com/Uomi-network/uomi-substrate-explorer/issues/10728
     OnFinality: 'wss://westend.api.onfinality.io/public-ws',
     Parity: 'wss://westend-rpc.polkadot.io',
     RadiumBlock: 'wss://westend.public.curie.radiumblock.co/ws',
