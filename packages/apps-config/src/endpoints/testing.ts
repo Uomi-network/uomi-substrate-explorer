@@ -22,7 +22,7 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
     info: 'UOMI Tokyo',
     providers: {
       // Uomi: 'wss://testnet.uomi.ai'
-      Uomi: 'wss://uomi.pdx.it' // TEMPORARY
+      Uomi: 'wss://rpc.uomi.ai' // TEMPORARY
     },
     text: 'UOMI Tokyo',
     ui: {
