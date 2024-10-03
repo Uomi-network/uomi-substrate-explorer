@@ -21,8 +21,8 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'UOMI Babbage',
     providers: {
-      Uomi1: 'wss://rpc.uomi.ai',
-      Uomi2: 'wss://rpc2.uomi.ai'
+      Uomi2: 'wss://rpc2.uomi.ai',
+      Uomi1: 'wss://rpc.uomi.ai'
     },
     text: 'UOMI Babbage',
     ui: {
