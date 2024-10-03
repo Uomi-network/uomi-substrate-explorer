@@ -37,6 +37,12 @@ function createExternals (t: (key: string, optionsOrText?: string | { replace: R
       icon: 'book',
       name: 'wiki',
       text: t('nav.wiki', 'Wiki', { ns: 'apps-routing' })
+    },
+    {
+      href: 'https://explorer.uomi.ai',
+      icon: 'globe',
+      name: 'evm_explorer',
+      text: t('nav.evm_explorer', 'EVM Explorer', { ns: 'apps-routing' })
     }
   ];
 }
