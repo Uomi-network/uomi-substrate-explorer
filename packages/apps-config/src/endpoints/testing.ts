@@ -33,6 +33,7 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
     info: 'UOMI Finney',
     providers: {
+      Uomi2: 'wss://finney2.uomi.ai',
       Uomi1: 'wss://finney.uomi.ai'
     },
     text: 'UOMI Finney',
