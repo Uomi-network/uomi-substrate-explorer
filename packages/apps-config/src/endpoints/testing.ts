@@ -29,6 +29,17 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
       color: '#000000',
       logo: chainsUomiPNG
     }
+  },
+  {
+    info: 'UOMI Finney',
+    providers: {
+      Uomi1: 'wss://finney.uomi.ai'
+    },
+    text: 'UOMI Finney',
+    ui: {
+      color: '#000000',
+      logo: chainsUomiPNG
+    }
   }
   // {
   //   info: '3dpass-testnet',
