@@ -19,18 +19,6 @@ export * from './testingRelayWestend.js';
 // IMPORTANT: Alphabetical based on text
 export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
-    info: 'UOMI Babbage',
-    providers: {
-      Uomi2: 'wss://rpc2.uomi.ai',
-      Uomi1: 'wss://rpc.uomi.ai'
-    },
-    text: 'UOMI Babbage',
-    ui: {
-      color: '#000000',
-      logo: chainsUomiPNG
-    }
-  },
-  {
     info: 'UOMI Finney',
     providers: {
       Uomi2: 'wss://finney2.uomi.ai',
@@ -41,7 +29,19 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
       color: '#000000',
       logo: chainsUomiPNG
     }
-  }
+  },
+  {
+    info: 'UOMI Babbage [DEPRECATED]',
+    providers: {
+      Uomi2: 'wss://rpc2.uomi.ai',
+      Uomi1: 'wss://rpc.uomi.ai'
+    },
+    text: 'UOMI Babbage [DEPRECATED]',
+    ui: {
+      color: '#000000',
+      logo: chainsUomiPNG
+    }
+  },
   // {
   //   info: '3dpass-testnet',
   //   providers: {
