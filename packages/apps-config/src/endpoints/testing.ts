@@ -30,18 +30,6 @@ export const testChains: Omit<EndpointOption, 'teleport'>[] = [
       logo: chainsUomiPNG
     }
   },
-  {
-    info: 'UOMI Babbage [DEPRECATED]',
-    providers: {
-      Uomi2: 'wss://rpc2.uomi.ai',
-      Uomi1: 'wss://rpc.uomi.ai'
-    },
-    text: 'UOMI Babbage [DEPRECATED]',
-    ui: {
-      color: '#000000',
-      logo: chainsUomiPNG
-    }
-  },
   // {
   //   info: '3dpass-testnet',
   //   providers: {
