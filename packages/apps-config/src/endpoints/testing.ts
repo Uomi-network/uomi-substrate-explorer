@@ -19,6 +19,18 @@ export * from './testingRelayWestend.js';
 // IMPORTANT: Alphabetical based on text
 export const testChains: Omit<EndpointOption, 'teleport'>[] = [
   {
+    info: 'UOMI Turing',
+    providers: {
+      Uomi1: 'wss://turing.uomi.ai'
+    },
+    text: 'UOMI Turing',
+    ui: {
+      color: '#000000',
+      logo: chainsUomiPNG
+    }
+  },
+
+  {
     info: 'UOMI Finney',
     providers: {
       Uomi2: 'wss://finney2.uomi.ai',
