@@ -10,21 +10,21 @@ import { chainsUomiPNG } from '../ui/logos/chains/index.js';
 export * from './testingRelayPaseo.js';
 export * from './testingRelayWestend.js';
 
-export const testZkVerifyParas: Omit<EndpointOption, 'teleport'>[] = [
-  {
-    info: 'VFlow-Volta',
-    paraId: 1,
-    providers: {
-      zkVerify: 'wss://vflow-volta-rpc.zkverify.io'
-    },
-    relayName: 'zkVerify-testnet',
-    text: 'VFlow Volta Testnet',
-    ui: {
-      color: '#628eff',
-      logo: nodesVFlowPNG
-    }
-  }
-];
+// export const testZkVerifyParas: Omit<EndpointOption, 'teleport'>[] = [
+//   {
+//     info: 'VFlow-Volta',
+//     paraId: 1,
+//     providers: {
+//       zkVerify: 'wss://vflow-volta-rpc.zkverify.io'
+//     },
+//     relayName: 'zkVerify-testnet',
+//     text: 'VFlow Volta Testnet',
+//     ui: {
+//       color: '#628eff',
+//       logo: nodesVFlowPNG
+//     }
+//   }
+// ];
 
 // The available endpoints that will show in the dropdown. For the most part (with the exception of
 // Polkadot) we try to keep this to live chains only, with RPCs hosted by the community/chain vendor

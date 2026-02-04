@@ -10,21 +10,21 @@ import { chainsUomiPNG } from '../ui/logos/chains/index.js';
 export * from './productionRelayKusama.js';
 export * from './productionRelayPolkadot.js';
 
-export const zkVerifyParas: Omit<EndpointOption, 'teleport'>[] = [
-  {
-    info: 'VFlow',
-    paraId: 1,
-    providers: {
-      zkVerify: 'wss://vflow-rpc.zkverify.io'
-    },
-    relayName: 'zkVerify',
-    text: 'VFlow',
-    ui: {
-      color: '#5C72FF',
-      logo: nodesVFlowPNG
-    }
-  }
-];
+// export const zkVerifyParas: Omit<EndpointOption, 'teleport'>[] = [
+//   {
+//     info: 'VFlow',
+//     paraId: 1,
+//     providers: {
+//       zkVerify: 'wss://vflow-rpc.zkverify.io'
+//     },
+//     relayName: 'zkVerify',
+//     text: 'VFlow',
+//     ui: {
+//       color: '#5C72FF',
+//       logo: nodesVFlowPNG
+//     }
+//   }
+// ];
 
 // The available endpoints that will show in the dropdown. For the most part (with the exception of
 // Polkadot) we try to keep this to live chains only, with RPCs hosted by the community/chain vendor
@@ -45,22 +45,22 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
       logo: chainsUomiPNG
     }
   },
-  {
-    genesisHash: ZKVERIFY_GENESIS,
-    info: 'zkVerify',
-    isRelay: true,
-    linked: [
-      ...zkVerifyParas
-    ],
-    providers: {
-      zkverify: 'wss://zkverify-rpc.zkverify.io'
-    },
-    text: 'zkVerify',
-    ui: {
-      color: '#B5FFA5',
-      logo: nodesZkVerifyPNG
-    }
-  }
+  // {
+  //   genesisHash: ZKVERIFY_GENESIS,
+  //   info: 'zkVerify',
+  //   isRelay: true,
+  //   linked: [
+  //     ...zkVerifyParas
+  //   ],
+  //   providers: {
+  //     zkverify: 'wss://zkverify-rpc.zkverify.io'
+  //   },
+  //   text: 'zkVerify',
+  //   ui: {
+  //     color: '#B5FFA5',
+  //     logo: nodesZkVerifyPNG
+  //   }
+  // }
   // {
   //   info: '3dpass',
   //   providers: {
