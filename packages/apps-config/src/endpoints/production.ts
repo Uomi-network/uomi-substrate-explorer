@@ -1,4 +1,4 @@
-// Copyright 2017-2024 @polkadot/apps-config authors & contributors
+// Copyright 2017-2026 @polkadot/apps-config authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { EndpointOption } from './types.js';
@@ -9,6 +9,22 @@ import { chainsUomiPNG } from '../ui/logos/chains/index.js';
 
 export * from './productionRelayKusama.js';
 export * from './productionRelayPolkadot.js';
+
+export const zkVerifyParas: Omit<EndpointOption, 'teleport'>[] = [
+  {
+    info: 'VFlow',
+    paraId: 1,
+    providers: {
+      zkVerify: 'wss://vflow-rpc.zkverify.io'
+    },
+    relayName: 'zkVerify',
+    text: 'VFlow',
+    ui: {
+      color: '#5C72FF',
+      logo: nodesVFlowPNG
+    }
+  }
+];
 
 // The available endpoints that will show in the dropdown. For the most part (with the exception of
 // Polkadot) we try to keep this to live chains only, with RPCs hosted by the community/chain vendor
@@ -27,6 +43,22 @@ export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
     ui: {
       color: '#000000',
       logo: chainsUomiPNG
+    }
+  },
+  {
+    genesisHash: ZKVERIFY_GENESIS,
+    info: 'zkVerify',
+    isRelay: true,
+    linked: [
+      ...zkVerifyParas
+    ],
+    providers: {
+      zkverify: 'wss://zkverify-rpc.zkverify.io'
+    },
+    text: 'zkVerify',
+    ui: {
+      color: '#B5FFA5',
+      logo: nodesZkVerifyPNG
     }
   }
   // {

@@ -1,4 +1,4 @@
-// Copyright 2017-2024 @polkadot/apps-routing authors & contributors
+// Copyright 2017-2026 @polkadot/apps-routing authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Routes, TFunction } from './types.js';
@@ -9,10 +9,12 @@ import alliance from './alliance.js';
 import ambassador from './ambassador.js';
 import assets from './assets.js';
 import bounties from './bounties.js';
+import broker from './broker.js';
 import calendar from './calendar.js';
 import claims from './claims.js';
 import collator from './collator.js';
 import contracts from './contracts.js';
+import coretime from './coretime.js';
 import council from './council.js';
 import democracy from './democracy.js';
 import explorer from './explorer.js';
@@ -36,6 +38,7 @@ import settings from './settings.js';
 import signing from './signing.js';
 import society from './society.js';
 import staking from './staking.js';
+import stakingAsync from './staking-async.js';
 import staking2 from './staking2.js';
 import stakingLegacy from './stakingLegacy.js';
 import storage from './storage.js';
@@ -56,11 +59,16 @@ export default function create (t: TFunction): Routes {
     poll(t),
     transfer(t),
     teleport(t),
+    // Staking for AssetHub Migration
+    stakingAsync(t),
     staking(t),
     staking2(t),
     // Legacy staking Pre v14 pallet version.
     stakingLegacy(t),
     collator(t),
+    // Coretime
+    broker(t),
+    coretime(t),
     // governance v2
     referenda(t),
     membership(t),
