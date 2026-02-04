@@ -25,14 +25,14 @@ function defaultT (keyOrText: string, text?: string | TOptions, options?: TOptio
 
 export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, withSort = true): LinkOption[] {
   // Collect all endpoint configs to pass to createCustom for UI lookup
-  const allEndpoints = [
-    prodRelayPolkadot,
-    prodRelayKusama,
-    testRelayWestend,
-    testRelayPaseo,
-    ...prodChains,
-    ...testChains
-  ];
+  // const allEndpoints = [
+  //   prodRelayPolkadot,
+  //   prodRelayKusama,
+  //   testRelayWestend,
+  //   testRelayPaseo,
+  //   ...prodChains,
+  //   ...testChains
+  // ];
 
   return [
     ...createCustom(t),
